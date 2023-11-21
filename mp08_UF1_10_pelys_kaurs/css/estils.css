@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: #222; 
+}
+
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    position: fixed;
+    z-index: 5000;
+    opacity: 50%;
+        
+}
+
+.logo{
+    width: 70px;
+    height: 40px;
+}
+
+img{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+ul{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: #CCC;
+}
+
+a:hover{
+    text-decoration: underline 2px;
+    color: #FFF;
+}
+
+.red{
+    color: white;
+    height: 20px;
+    width: 220px;
+    text-align: center;
+    color: white; 
+    float: right;
+    position: relative;
+    bottom: 55px;  
+}
+
+h1{
+    color: white;
+    position: relative;
+    margin-left: 25px;
+    top: 50px;
+    font-size: 22px;  
+    width: 500px;
+    background-color: ;
+    clear:both;
+}
+
+
+
+.imagen{
+    background-color: ;
+    width: 175px;
+    height: 100%;
+    margin: 5px;
+    position: relative;
+    float:left;
+    background-image: url(imatges/1982Koyaanisqatsi.jpg);
+  
+}
+
+.container{
+    background-color: ;
+    width: 100%;
+    height: 100%;
+    background-color:;
+   
+  
+}
+
+
+
+#contenidor{
+    width: 175px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    float:left;
+    margin: 10px;
+    background-color: ;   
+}
+
+#interessants{
+    height: 710px;
+    width: 100%;
+    background-color:;
+    
+}
+
+#vistes{
+    height: 380px;
+    width: 100%;
+    background-color: ;
+    filter: grayscale(100%);
+    background-color: ;
+    margin-bottom: 10px;
+}
+
+#pendents{
+    height: 450px;
+    width: 100%;
+    background-color: ;
+    margin-bottom: -50px;
+}
+
+#pel_vistes{
+    height: 450px;
+    width: 100%;
+    background-color: ;
+    margin-bottom: -50px;
+    filter: grayscale(100%);
+}
+
+#ser_seguint{
+    height: 450px;
+    width: 100%;
+    background-color: ;
+    margin-bottom: -50px;
+}
+
+
+#ser_vistes{
+    height: 450px;
+    width: 100%;
+    background-color: ;
+    margin-bottom: -50px;
+    filter: grayscale(100%);
+}
+
+.titol{
+    color: #CCC;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.anys{
+    margin-top: 5px;
+    color: white;
+    font-size: 11px;
+    width: 50px;
+    background-color: ;
+    margin-left: 20px;
+}
+
+.tipus{
+    color: white;
+    font-size: 11px;
+    width: 85px;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    text-align: right;
+}
+
+#contenidor img:hover{
+    opacity: 50%;
+}
+
+
+

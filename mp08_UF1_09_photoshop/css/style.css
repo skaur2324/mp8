@@ -1,0 +1,80 @@
+body:before{
+    content: "Ps";
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: midnightblue;
+    border-radius: 30px;
+    color: skyblue;
+    margin: auto;
+    font-size: 100px;
+    font-family: Futura;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+}
+
+.imatge{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    background-image: url(../img/fruita.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.efecte{
+    width: 150px;
+    height: 250px;
+    background: yellow;
+    margin: 10px;
+    text-align: center;
+    float: left;
+}
+
+.contenidor{
+    width :1000px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+.desenfoc .imatge{
+    filter: blur(5px);
+}
+
+.lluminositat .imatge{
+    filter: brightness(2);
+}
+
+.contrast .imatge{
+    filter: contrast(200%);
+}
+
+.ombra .imatge{
+    filter: drop-shadow(10px 5px 10px green);
+}
+
+.grisos .imatge{
+    filter: grayscale(80%);
+}
+
+
+.to .imatge{
+    filter: hue-rotate(90deg);
+}
+
+.invertir .imatge{
+    filter: invert(75%);
+}
+
+.opacitat .imatge{
+    filter: opacity(50%);
+}
+
+.saturacio .imatge{
+    filter: saturate(30%);
+}
+
+.sepia .imatge{
+    filter: sepia(60%);
+}

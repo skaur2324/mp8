@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float2</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        div{
+            background-color: sandybrown;
+            height: 97px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0.5%;
+        }
+
+        .cap{
+            background-color: ;
+            text-align: center;
+            color: white; 
+            padding: 2px; 
+            
+        }
+
+        .menu{
+            background-color: antiquewhite;
+            float: left;
+            height: 240px;
+            width: 24%;          
+        }
+
+        .contingut{
+            background-color: seashell;
+            height: 900px;
+            width: 49%;
+            float: left;  
+            overflow: scroll;         
+        }
+
+        .lateral{
+            background-color: antiquewhite;          
+            height: 240px;
+            width: 24%;
+            float: left;
+        }
+
+        .peu{
+            clear: both;     
+            margin-bottom: 0;     
+        }
+
+        h1{
+            margin: 0;
+            text-align: center;
+            font-size: 45px;
+        }
+
+        h2{
+        }
+
+        p{
+        }
+
+        *, *:after, *:before{
+            margin: 0;
+            padding: 0;
+        }
+
+        body div{
+
+        }
+
+        div>.classe{
+
+        }
+
+        .primernivell{
+            background: tomato;
+            color: white;
+            margin: 0.25rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;  
+            
+            text-align: center;
+            line-height: 2rem;
+        }
+
+        .navegacio{
+            background: plum;
+            width: 60%;
+            margin: auto;
+        }
+
+        .primernivell:hover{
+            background: lightpink;
+        }
+
+        .primernivell:hover > .secundari{
+            display: block;
+        }
+
+        .secundari{
+            display: block;
+            background: green;
+            position: absolute;
+            left: 0;  
+            top: 2.5rem;
+            display: none;
+        }
+
+        .segonnivell{
+            background: salmon;
+            display: block;
+            top: 2rem;
+            font-size: 0.85rem;
+            height: 2rem;
+            border-bottom: solid white 1px;
+
+            text-align: center;
+            line-height: 2rem;
+        }
+
+        .segonnivell:hover{
+            background: coral;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="cap"><h1>Sapritbook</h1>
+
+        <ul class="navegacio">
+            <li class="primernivell">Opció 1
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 2
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 3
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 4
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 5
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+        </ul>
+    
+    
+    </div>
+
+    <div class="menu">
+        <h2>Home</h2>
+        <ul>
+            <li><a href="#e1">Entrada 1</a></li>
+            <li><a href="#e2">Entrada 2</a></li>
+            <li><a href="#e3">Entrada 3</a></li>
+            <li><a href="#e4">Entrada 4</a></li>
+            <li><a href="#e5">Entrada 5</a></li>
+            <li><a href="#e6">Entrada 6</a></li>
+            <li><a href="#e7">Entrada 7</a></li>
+            <li><a href="#e8"><a href="#e8">Entrada 8</a></li>
+        </ul>
+    </div>
+
+    <div class="contingut">
+        <h2>Timeline</h2>
+        <h3 id ="e1">Post1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquam dignissimos sit ipsam. Distinctio mollitia tempore pariatur, quod placeat perferendis. Maiores vero tempore ipsam, quos corrupti consequuntur explicabo nobis culpa!</p>
+
+        <h3 id ="e2">Post2</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quae numquam excepturi expedita nisi quos, doloremque fugiat tempora molestiae exercitationem quod. Corporis id consectetur repellendus expedita deleniti aliquam soluta corrupti!</p>
+
+        <h3 id ="e3">Post3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere harum et voluptatum odit excepturi doloremque dolore tempora hic nulla perspiciatis quam dolorum temporibus a nihil atque laborum quae, vero labore?</p>
+
+        <h3 id ="e4">Post4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sequi quis cupiditate iusto veritatis ipsum cumque pariatur quae excepturi nihil deserunt quasi reiciendis quas ut, nam accusamus architecto veniam facere.</p>
+
+        <h3 id ="e5">Post5</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, optio tenetur vero temporibus nobis quasi velit! Mollitia soluta recusandae sed fuga vero ut provident placeat! At facere quasi vero dicta.</p>
+
+        <h3 id ="e6">Post6</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, optio tenetur vero temporibus nobis quasi velit! Mollitia soluta recusandae sed fuga vero ut provident placeat! At facere quasi vero dicta.</p>
+
+        <h3 id ="e7">Post7</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, optio tenetur vero temporibus nobis quasi velit! Mollitia soluta recusandae sed fuga vero ut provident placeat! At facere quasi vero dicta.</p>
+
+        <h3 id ="e8">Post8</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, optio tenetur vero temporibus nobis quasi velit! Mollitia soluta recusandae sed fuga vero ut provident placeat! At facere quasi vero dicta.</p>
+
+       
+
+        
+
+    </div>
+
+    <div class="lateral">
+        <h2>Contacts</h2>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+
+    <div class="peu">Peu</div>
+
+</body>
+</html>

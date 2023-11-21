@@ -1,0 +1,155 @@
+body{
+    font-family: Arial, Helvetica;
+    margin: 0;  
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+h1, p{
+    width: 350px;
+    margin: 0;
+    padding: 25px;    
+}
+
+div{
+    
+}
+
+#menu{
+    background-color: #FFF;
+    height: 40px;
+    background-repeat: no-repeat;  
+    
+}
+
+
+
+ul{
+    text-align: right;
+    margin-top: 0;
+    display: inline-block;
+   
+  }
+  
+  li{
+    text-decoration: none;
+    display: inline;
+    margin: 0 25px 0 0;
+    padding: 10px;
+    background-color: #6C3;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+  }
+
+  a:link{
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color: white;
+  }
+  
+  a:active{
+    color:navy;
+  }
+  
+  a:hover{
+    opacity:65%;
+  }
+
+
+
+  
+#coneix {
+    background-color: #6C3;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+} 
+
+#tot{
+    background-color: #FFF;
+    height: 641px;
+    background-image: url(img/allinone.jpg);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+#util{
+    background-color: #333333;
+    height: 500px;
+    color: white;
+    background-image: url(img/curator-short.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+#rapid{
+    background-color: #EEECEE;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+#facil{
+    background-color: #6C3;
+    height: 550px;
+    background-image: url(img/mobile-share.png);
+    background-repeat: no-repeat;
+    background-position: 400px;
+    background-size: contain;
+}
+
+#arreu{
+    background-color: #EEECEE;
+    height: 643px;
+    background-image: url(img/anywhere.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+#canvi{
+    background-color: #333333;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 400px;   
+}
+
+img{
+    margin: 25px;
+    display: inline;
+}
+
+#menu img{
+    display: inline;
+    margin: 0;
+
+}
+
+#canvia img{
+    margin: 25px;
+
+}
+
+#tornar{
+    font-family: Helvetica;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+    position: fixed;
+    bottom: 200px;
+    right: 200px; 
+    border-radius: 50px;
+    text-align: center;
+    font-size: 125px;
+}

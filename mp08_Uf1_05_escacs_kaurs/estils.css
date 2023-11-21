@@ -1,0 +1,73 @@
+.taulell{
+    background-color: orange;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    border: solid 10px brown;
+}
+
+.casella{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(45deg, darkred, white);
+    float: left;
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n){
+    background-image: linear-gradient(45deg, pink, white);
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n+1){
+    background-image: linear-gradient(45deg, pink, white);
+}
+
+b{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at 30% 30%, white, palevioletred);
+    display: block;
+    margin: 10px;
+    box-shadow: 1px 1px 3px #000;
+}
+
+b:hover{
+    position: relative;
+    bottom: -100px;
+    transition: all;
+}
+
+.filera:nth-child(n+3) b{
+    display: none;
+}
+
+.filera:nth-child(n+7) b{
+    display: block;
+    background-image: radial-gradient(circle at 30% 30%, white, coral); 
+    box-shadow: 1px 1px 3px #000;
+}
+
+.filera:nth-child(n+7) b:hover{
+    position: relative;
+    bottom: 100px;
+
+}
+
+.degradat{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    background-image: radial-gradient(circle at 0% 0%, pink, orangered);
+    box-shadow: 1px 1px 3px black;
+}
+
+
+
+
+
+
+
+
+

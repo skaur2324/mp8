@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, Sans-serif;
+}
+
+body{
+    background-color: #222; 
+}
+
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    position: fixed;
+    z-index: 5000;
+    filter: opacity(50%);      
+}
+
+.logo{
+    width: 70px;
+    height: 40px;
+}
+
+img{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.red{
+    color: white;
+    height: 20px;
+    width: 220px;
+    text-align: center;
+    color: white; 
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    bottom: 0px;
+      
+}
+
+ul{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: #CCC;
+}
+
+a:hover{
+    text-decoration: underline 2px;
+    color: #FFF;
+}
+
+h1{
+    color: white;
+    position: relative;
+    margin-left: 25px;
+    top: 50px;
+    font-size: 22px;  
+}
+
+.documentos{
+    background-color: ;
+    width: 175px;
+    height: 100%;
+    margin: 5px;
+    position: relative;
+    float:left;
+    margin-top: 50px;
+  
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    clear: both;
+}
+
+.titol{
+    color: #CCC;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.interessants img:hover{
+    opacity: 50%;
+}
+
+.anys{
+    margin-top: 5px;
+    color: white;
+    font-size: 11px;
+    width: 50px;
+    background-color: ;
+    margin-left: 20px;
+}
+
+.tipus{
+    color: white;
+    font-size: 11px;
+    width: 85px;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    text-align: right;
+}
+
+#contenidor{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    float: left;
+    filter: grayscale(100%);
+   
+}
+
+#contenidor_pendents{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 190px;
+    float: left;
+    
+}
+
+
+#contenidor_vistes{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    margin-top: 190px;
+    float: left;
+    
+}
+
+#contenidor_vistes img{
+    filter: grayscale(90%);
+}
+
+
+#contenidor_series_seg{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 190px;
+    float: left;
+    
+}
+
+#contenidor_series_vis{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+    background-color:;
+    float: left;   
+}
+
+#contenidor_series_vis img{
+    filter: grayscale(100%);
+}
+
+

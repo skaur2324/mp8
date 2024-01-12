@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" manifest="cache.manifest">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <meta name="theme-color" content="#FF9933">
+    <meta name="msapplication-navbutton-color" content="#FF9933">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FF9933">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <link rel="icon" sizes="512x512" href="img/icon.png">
+    <link rel="apple-touch-icon" href="img/icon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Webapp</title>
+
+    <script type="text/javascript">
+        var cache = window.applicationCache;
+
+        cache.addEventListener('updateready', function(e) {
+            if (cache.status == 4) {
+                cache.swapCache();
+                if (confirm('recarreguem?')) {
+                    window.location.reload();
+                }
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <img src="img/foto.jpg" alt="">
+    <input type="button" onclick="cache.update();" />
+</body>
+
+</html>

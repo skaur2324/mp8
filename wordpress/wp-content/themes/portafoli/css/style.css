@@ -1,0 +1,60 @@
+body {
+    
+}
+
+ul a {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    float: left;
+    text-decoration: none;
+    margin: 0.5rem;
+    background-image: repeating-radial-gradient(black 0%, grey 2.5%, black 5%);
+}
+
+ul a:hover {
+    animation: tocadisc 1s linear infinite;
+}
+
+
+ul a li {
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    text-align: center;
+    display: block;
+    background: white;
+    color: black;
+    line-height: 4rem;
+    margin: 3rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+ul a li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    display: block;
+    font-size: 0.5rem;
+    text-align: center;
+    background: orange;
+    height: 4rem;
+    width: 2rem;
+    border-radius: 0 2rem 2rem 0;
+    z-index: 1;
+    mix-blend-mode: multiply;
+}
+
+@keyframes tocadisc {
+    from {
+        transform: rotate(0deg);
+    }
+
+    from {
+        transform: rotate(360deg);
+    }
+}

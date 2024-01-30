@@ -19,10 +19,54 @@
 
     <title>Responsive</title>
     <style>
+        /*diseeny comú*/
+        @font-face{
+            font-family: 'Namecat';
+            src: url('fonts/Namecat.woff2') format('woff2')
+                 url('fonts/Namecat.otf') format('otf');
+
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+             
+
+        }
+
+        .progres{
+  height: 1rem;
+  width: 100%;
+  background: plum;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;  
+  z-index: 1000;
+  scale: 0 1;
+  transform-origin: left;
+  animation: jacobo linear;
+  animation-timeline: scroll();
+}
+
+@keyframes jacobo{
+  to{
+    scale:1 1;
+  }
+}
+        
+        body{
+            font-size: 2rem;
+            font-family: 'Helvetica', arial, sans-serif;
+        }
+
+        h1{
+            font-family: ;
+        }
+
+
         /* disseny mobil vertical */
         @media screen and (max-width: 490px) {
             body {
-                background: red;
+                background: plum;
             } 
         }
         /* disseny mobil horizontal */
@@ -35,12 +79,24 @@
         @media screen and (min-width: 1025px) {
             body {
                 background: salmon;
-            }
-            
+            } 
         }
     </style>
 </head>
 <body>
+    <div class="progres"></div>
+    <h1>APP</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    
     
 </body>
 </html>

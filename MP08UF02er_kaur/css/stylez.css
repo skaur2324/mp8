@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    width: 100%;
+    background-color: ;
+
+}
+
+
+#box{
+    width: 100%;
+    height: 100%; 
+    background-color: ivory;
+    
+}
+
+
+
+h1{
+    font-size: 4em;
+    font-family: Helvetica, arial, Sans-serif;
+    text-align: center;
+}
+
+
+
+.cap{
+    height: 589px;
+    width: 100%;
+    background-color: pink;
+
+}
+
+.container{
+    width: 589px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 30%;
+    left: 50%;
+    overflow: hidden;
+
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+
+.cos{
+    background-color: transparent;
+    height: 240px;
+    width: 240px;
+    margin: 20px;
+    float: left;
+}
+
+.image{
+    background-color: bisque;
+    height: 200px;
+    width: 240px;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.image.uno{
+    background-image: url(../img/small//small_pulp.jpg);    
+}
+
+.image.dos{
+    background-image: url(../img/small//small_taxi.jpg);
+}
+
+.image.tres{
+    background-image: url(../img/small//small_bond.jpg);
+}
+
+.image.quatro{
+    background-image: url(../img/small//small_ghost.jpg);
+}
+
+.image.cinco{
+    background-image: url(../img/small//small_bean.jpg);
+}
+
+.image.seis{
+    background-image: url(../img/small//small_back.jpg);
+}
+
+.image.siete{
+    background-image: url(../img/small//small_rider.jpg);
+}
+
+.image.ocho{
+    background-image: url(../img/small//small_team.jpg);
+}
+
+.image.nueve{
+    background-image: url(../img/small//small_break.jpg);
+}
+
+.image:hover{
+    animation-name: rotacio;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+@keyframes rotacio{
+    0%{
+        transform: roatate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.image:hover{
+    transform: rotate(deg);
+}
+
+.text{
+    height: 40px;
+    width: 240px;
+    background-color: white;
+}
+
+h3{
+    font-family: Helvetica, arial, Sans-serif;
+    margin-left: 15px;
+    line-height: 38px;
+    color: grey;
+
+}
+
+.peu{
+    height: 220px;
+    width: 100%;
+    background-color:;
+    clear: both; 
+}
+
+.logo{
+    width: 220px; 
+    height: 220px;
+    background-image: url(../img/logo_carsandfilms.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+
+
+
+
+  
+ 
+
+
+      
+     
+
+

@@ -53,50 +53,93 @@
   }
 }
         
-        body{
-            font-size: 2rem;
-            font-family: 'Helvetica', arial, sans-serif;
-        }
+body{
+     font-size: 2rem;
+     font-family: 'Helvetica', arial, sans-serif;
+}
 
-        h1{
-            font-family: ;
-        }
+h1{
+   font-family: ;
+}
 
+ul{
+   overflow: hidden;
+   position: fixed;
+   top:0;
+   right: 0;
+}
 
-        /* disseny mobil vertical */
-        @media screen and (max-width: 490px) {
-            body {
-                background: plum;
-            } 
-        }
-        /* disseny mobil horizontal */
-        @media screen and (min-width: 491px) and (max-width: 1024px) {
-            body {
-                background: yellow;
-            }
-        }
-        /* disseny mobil escriptori */
-        @media screen and (min-width: 1025px) {
-            body {
-                background: salmon;
-            } 
-        }
-    </style>
+li{
+    float: left;
+    display: inline-block;
+    margin: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    background: pink;
+}
+
+#petit{
+    font-size: 1rem;
+}
+
+#mitja{
+    font-size: 1.5rem;
+}
+
+#gran{
+    font-size: 2rem;
+}
+
+p{
+    margin-top: 1rem;
+}
+
+/* disseny mobil vertical */
+@media screen and (max-width: 490px){
+    body{
+        background: plum;
+    } 
+}
+/* disseny mobil horizontal */
+@media screen and (min-width: 491px) and (max-width: 1024px){
+    body{
+        background: yellow;
+    }
+}
+/* disseny mobil escriptori */
+@media screen and (min-width: 1025px){
+    body{
+        background: salmon;
+    } 
+}
+
+</style>
 </head>
 <body>
+    <ul>
+        <li id="petit">-</li>
+        <li id="mitja">=</li>
+        <li id="gran">+</li>
+    </ul>
+
     <div class="progres"></div>
     <h1>APP</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, aperiam porro corrupti asperiores excepturi ab. Dolore sequi natus rerum eligendi, aliquid quos iure nihil deleniti praesentium ab adipisci quaerat facilis.</p>
     
     
 </body>
 </html>
+
+<script src="js/ont.js"></script>

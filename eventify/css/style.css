@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: pink;
+}
+#start {
+    background: lightblue;
+}
+#login {
+    background: lightgreen;
+}
+#register {
+    background: lightsalmon;
+}
+#politica {
+    background: lavenderblush;
+}
+#home {
+    background: #F7FDFD;
+}
+#start img {
+    position: absolute;
+    width: 10rem;
+    height: 8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5rem -4rem);
+}
+.botonera {
+    background: #1ED4A9;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+}
+.botonera ul li {
+    display: block;
+    width: 20vw;
+    height: 10vh;
+    float: left;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.botonera ul li:hover {
+    background: #459683;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.botonera .guardado {
+    background-image: url(../img/Botón-Guardados.svg);
+}
+.botonera .guardado:hover {
+    background-image: url(../img/Botón-Guardados.svg);
+}
+.botonera .reservado {
+    background-image: url(../img/Botón-Reservados.svg);
+}
+.botonera .reservado:hover {
+    background-image: url(../img/Botón-Reservados.svg);
+}
+.botonera .home {
+    background-image: url(../img/Botón-home.svg);
+}
+.botonera .home:hover {
+    background-image: url(../img/Botón-home.svg);
+}
+.botonera .categoria {
+    background-image: url(../img/Botón-Categorias.svg);
+}
+.botonera .categoria:hover {
+    background-image: url(../img/Botón-Categorias.svg);
+}
+.botonera .chats {
+    background-image: url(../img/Botón-Chats.svg);
+}
+.botonera .chats:hover {
+    background-image: url(../img/Botón-Chats.svg);
+}
+.cabeza {
+    width: 100vw;
+    height: 14vh;
+    background-image: url(../img/cabeza.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cabeza ul li {
+    width: 33.33vw;
+    height: 14vh;
+    display: block;
+    float: left;
+    background-position: 30% 40%;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.cabeza .ajustes {
+    background-image: url(../img/Botón-Preferencias.svg);
+}
+.cabeza .eventify {
+    font-size: 1.4rem;
+    color: #F7FDFD;
+    text-align: center;
+    line-height:8.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cabeza .perfil {
+    background-image: url(../img/Botón-Perfil.svg);
+    background-position: 70% 45%;
+}
